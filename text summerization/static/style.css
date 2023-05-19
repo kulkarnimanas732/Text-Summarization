@@ -1,0 +1,99 @@
+body{
+    background-color:  #353535;
+}
+
+h1.display-4{
+    text-align: center;
+    
+}
+.jumbotron{
+    margin-top: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: #353535;
+}
+
+.original_title{
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.summary_title{
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.srt{
+    display: flex;
+    flex-direction: row;;
+}
+
+.originalTxt{
+    background-color: white;
+    padding: 20px;
+}
+
+.summarytxt{
+    background-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.pdfsummary{
+    background-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+.heading{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.lead{
+    display: flex;
+    justify-content: center;
+}
+
+.submitBtn{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pdfPreview{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    margin: 0;
+}
+
+.left {
+    background-color: white;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 400px;
+}
+
+.right {
+    background-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    margin-bottom: 400px;
+}
