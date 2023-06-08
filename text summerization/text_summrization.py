@@ -67,7 +67,7 @@ text_summary, text_doc, text_original_length, text_summary_length = summarizer(r
 print('PDF Summary:', pdf_summary)
 print('PDF Original Length:', pdf_original_length)
 print('PDF Summary Length:', pdf_summary_length)
-
+//
 print('Text Summary:', text_summary)
 print('Text Original Length:', text_original_length)
 print('Text Summary Length:', text_summary_length)
