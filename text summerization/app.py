@@ -13,7 +13,7 @@ def read_pdf(file):
     for page in reader.pages:
         text += page.extract_text()
     return text
-
+//
 def summarizer(rawdocs):
     stopwords = list(STOP_WORDS)
     nlp = spacy.load('en_core_web_sm')
